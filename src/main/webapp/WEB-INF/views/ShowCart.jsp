@@ -33,7 +33,7 @@ Session ID: <%=session.getId()%>
 				
 				<td>${ad.qty}</td>
 				<td>${ad.price}</td>
-<td>${ad.total}</td>
+                <td>${ad.total}</td>
 
 				<td><img src="./resources/images/${ad.pid}.jpg" style="width: 180px; height: 150px" /></td>
 

@@ -11,13 +11,12 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 
 import com.google.gson.Gson;
-import com.niit.choco.dao.interfaces.AdminProductDAOInterface;
 import com.niit.choco.model.AdminProduct;
 
 
 
 @Repository
-public class AdminProductDAO implements  AdminProductDAOInterface{
+public class AdminProductDAO{
 	@Autowired
 	 SessionFactory sessionFactory;
 	public void adProdSave(AdminProduct adprod)

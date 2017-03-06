@@ -19,11 +19,11 @@
 				<h3>ABOUT US</h3>
 				<p>
 					<i>
-						<h5>The founder of CHOCO Company is Golla satya harish, who
+						The founder of CHOCO Company is Golla satya harish, who
 							was born in 1995 2Aug in polavaram. He Completed his graduation
 							in VR Siddhartha Engineering College.Done his Ms in texas under
 							data science. He started his business in 2020 oct 2.This is his
-							one of the Greatest Dream.</h5>
+							one of the Greatest Dream.
 					</i>
 				</p>
 			</div>
@@ -45,7 +45,7 @@
 			<img src="C:\Users\harishchoco\Pictures\Camera\s1.jpg"
 				class="img-rounded" width=1300 height=600>
 			<h4>
-				<center>I AM A GOOD BOY OF MAN KING IN THIS WORLD</center>
+				I AM A GOOD BOY OF MAN KING IN THIS WORLD
 			</h4>
 		</div>
 
@@ -77,7 +77,7 @@
 		<img src="C:\Users\harishchoco\Pictures\Camera\S.jpg"
 			class="img-rounded" width=1270 height=600>
 		<h4>
-			<center>I AM A GOOD BOY OF MAN KING IN THIS WORLD</center>
+		I AM A GOOD BOY OF MAN KING IN THIS WORLD
 		</h4>
 	</div>
 	<div class="col-md-12">

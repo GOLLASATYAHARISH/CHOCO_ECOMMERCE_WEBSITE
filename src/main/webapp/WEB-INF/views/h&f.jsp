@@ -38,7 +38,38 @@
 </div></div>
 <div>
 <div>
-	<nav class="navbar navbar-inverse fix-top">
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+ 
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="index.jsp">Home</a></li>
+      <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Products <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+         <li><a href="Product">All</a></li>
+          <li><a href="Product">cakes</a></li>
+          <li><a href="Product">omlets</a></li>
+          <li><a href="Product">fries</a></li>
+          <li><a href="Product">chocolates</a></li>
+        </ul>
+      </li>
+      <c:if test="${not empty login}">
+      <li class="active"><a href="about">AboutUs</a></li>
+      <li class="active"><a href="ContactUs">Contact Us</a></li>
+      <li class="active"><a href="perform_logout">LogOut</a></li>
+      </c:if>
+      <c:if test="${empty login}">
+       <li class="active"><a href="register">Register</a></li>
+       <li class="active"><a href="Login">Login</a></li>
+      </c:if>
+      
+    </ul>
+  </div>
+</nav>
+
+
+
+<%-- 	<nav class="navbar navbar-inverse fix-top">
 	<div class="container-fluid">
 		<div class="navbar-header">
 			<a class="navbar-brand" href="about">CHOCO</a>
@@ -82,13 +113,14 @@
         <li><a href="register"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
           <li><a href="Login"><span class="glyphicon glyphicon-user"></span> login</a></li>
         </c:if>
+
           
           </ul>
         </li>
 
       </ul>
    
-    <%-- 
+    
 		<ul class="nav navbar-nav navbar-right">
 		
 		<li><a href="register"><span
@@ -107,9 +139,9 @@
            
              <button> <i class="fa fa-cart-arrow-down" style="font-size:36px;color:red"></i></button>
         </ul>
-	 --%>
+	
 	 </div>
-	</nav>
+	</nav> --%>
 </div>
 </div>	
 </body>
